@@ -2,20 +2,20 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Login = (props) => {
-  
+
     return (
         <div>
             <Container>
-                    <BgImage/> 
+                <BgImage />
 
-                    <CTA>
-                        <CTALogoOne src="/images/netflix_logo.png" alt=""/>
-                        <SignUp>CLICK HERE FOR FUN </SignUp>
-                        <Description>
-                            Watch anywhere. Cancel anytime. Ready to watch? Enter your email to create or restart your membership.
-                        </Description>
-                    </CTA>                     
-                
+                <CTA>
+                    <CTALogoOne src="/images/netflix_logo.png" alt="" />
+                    <SignUp>CLICK HERE FOR FUN </SignUp>
+                    <Description>
+                        Here are some changes i am going to commit in this file so sorry for it babs.
+                    </Description>
+                </CTA>
+
             </Container>
         </div>
     )
